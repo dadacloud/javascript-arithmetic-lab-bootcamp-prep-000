@@ -19,16 +19,16 @@ function divide(a,b){
 }
 
 function inc(n){
-  return a+=1;
+  return n+=1;
 }
 
 function dec(n){
-  return a-=1;
+  return n-=1;
 }
 
 function makeInt(n){
-  return parseInt(a);
+  return parseInt(n);
 }
 function preserveDecimal(n){
-  return parseFloat(a);
+  return parseFloat(n);
 }
